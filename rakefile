@@ -1,0 +1,56 @@
+HTTP_SERVER_PORT = 8080
+
+def get_lighttpd_pid
+	lsof_output = %x[lsof -F c -i tcp:#{HTTP_SERVER_PORT}]
+
+	return nil unless /^p(?<pid>\d+)\nclighttpd$/m =~ lsof_output
+	return pid.to_i
+end
+
+desc 'Start a lighttpd instance serving this directory.'
+task :serve do
+	next if get_lighttpd_pid
+
+	config = <<-eos
+		server.port = #{HTTP_SERVER_PORT}
+		server.document-root = "#{Dir.pwd}/public"
+
+		index-file.names = ( "index.html" )
+		
+		mimetype.assign = (
+  			".html" => "text/html; charset=utf-8",
+  			".css" => "text/css",
+  			".asc" => "text/plain"
+  		)
+	eos
+
+	require 'tempfile'
+	configfile = Tempfile.new(%w{lighttpd .conf})
+	begin
+		configfile.print config
+		configfile.flush
+
+		sh "lighttpd -f #{configfile.path}"
+	ensure
+		configfile.close
+		configfile.unlink
+	end
+end
+
+desc 'Open this directory in a web browser.'
+task :open => :serve do
+	url = "http://localhost:#{HTTP_SERVER_PORT}"
+	commands = ['xdg-open', 'open', 'curl -i']
+
+	command = commands.find do |c|
+		system("which #{c.split(' ').first} > /dev/null 2>&1")
+	end
+
+	sh "#{command} \"#{url}\""
+end
+
+desc 'Stop the lighttpd instance.'
+task :unserve do
+	pid = get_lighttpd_pid
+	Process.kill('TERM', pid) if pid
+end
