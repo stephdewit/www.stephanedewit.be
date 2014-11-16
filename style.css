@@ -1,5 +1,8 @@
-div.links a.fa {
+a.fa {
 	text-decoration: none;
 	color: inherit;
+}
+
+.links a {
 	margin: 20px;
 }
