@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/stephdewit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://stephanedewit.be
+  * I am stephdewit (https://keybase.io/stephdewit) on keybase.
+  * I have a public key with fingerprint C62E 9BAA 066B BA03 B645  C5A0 F8E8 D3C3 4FFB AB43
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "c62e9baa066bba03b645c5a0f8e8d3c34ffbab43",
+            "host": "keybase.io",
+            "key_id": "F8E8D3C34FFBAB43",
+            "uid": "6303596d2a243b71023a468c9d220519",
+            "username": "stephdewit"
+        },
+        "merkle_root": {
+            "ctime": 1424898144,
+            "hash": "b2b198d49f9bc1bac52aca8eeb978d5d8c055c70e98be92a9396dd664a8ad6456826de8e77f36496aba741da4965d5054b9db18e669411fd89b0368d9119827a",
+            "seqno": 163232
+        },
+        "service": {
+            "hostname": "stephanedewit.be",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424898186,
+    "expire_in": 157680000,
+    "prev": "5117a78e85d976f06972d070e5fad374792377ff21421980523f141cd7200ce8",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFdkntQFVUcxy8gFDrx6kWTGN6YIAZh37uHGEu0WxjpDIpQkHfO2XMurODuZe/l
+NXiBsEholEAjtQnIkhmhJMuIMsU0GxtkJBVkpsHhISEKNFM8LJipXYYma/86e873
+fH/fz+933nnAx+LtdffW1fOb51vXe3WNI8vWKam6xIo0XGyNL7HKuQpR3eZKhTuJ
+Nd6aQ4oRdJFYRQtXNUxid7jClzQx1gKiuxRNNVRUrBgrWj0xpty87FDULKI7dcX0
+ssoCQwCCkBIEhCDFIoHjZR5SDolImJVZzuFAEHGsYZmtudz/qWpd9LQr2Ni1Sc9L
+G9j1LGezJa5LXNTnLx4ILMXyQMAMZDgWiTTFsJATJBlghqF4GphCF9GXkFxu4szG
+pFBxm4l3Ej0nl9h1TVvElt2KKaI5hpOARHOckQm6so1riEE0kDAHHADJNIIyz0AZ
+SoQgIEqYx5JM8bwsUgRIiAAGAtZIhAWBgxLEBrEgMQImEhFFBytwQIAIihyNobHk
+MU/xHAIY0RIRBMDRtANLAFGsIGFAG2UZERoQLpKnakY4gWVYxmP+6wWKTMzcZuPu
+5YMqWUSMRcS46NQ1tyZrucZpttvtdMWb5O5iJzlp7BQSZF9ysiNFxcbs7h0ubUj/
+1xVJiLGSIqeiE7tiKnhRkCjjMwuRAsOSp2kRisZ4eQxEwUEJQGQwZfSGd0DMipwI
+GNbog4MxHA06imdYB83RMhYZipKJ9C8rb+SEWSaVkqVCd75OrJ4q75XLLF7eFj9f
+b/P1Wpb7B/3zpGc2BllqXhhlgbzG80PjUNxQSJzYMHipI/GMSoVK/uc8E98fqZyd
+aXIfGfOFw3SmrYMcO2zxTb716Kkq2MG9tcrTL94d2x7Yezt409Sa3rG8dwc6b7rt
+DbMBPiUD2tj18k/j86YHD30y2ZJ4pXuyZn46oy/56UOR4LvlQbXqwu6GDfLDez15
+uDfZ3tZtqQ9fOxZj+UxeKCKBVKkzAZU3NC24NqftiO7MxVEH7s8UziS98tAu+vG5
+CktqQuSzc9e1ttbLaVGZtOZvkajWn2+mBrfdmOIP5nbpU0U99EibCvCFY6v3VjLP
+lO4v2j4Z9Ossej9sZLxuS3lK39GyjojatM8/eurF5rInGntXPua/JfSL5lOVGfmw
+VP/FdUDPSo+ZPp9kTxp+sLrykaavabqpLqVua11VX0RgYc7+E06cWfDSl4F6+4fg
+YtO5Pgb8OBq80NKdEr9iT1ruc9ucweRO4O+lZ0tPfNO+KmRUu3GtsX8ybF1o2dV9
+YLimfhwR/Y3whKMTb06HzYVGrrVWVvx0J3SwpWhmW9t0VO3ru/6ovtbTf7xg/ZM9
+qN77g7f1gJqpLufMq2R1hG2e05pP/jYRGjIx02Krnn2t8kIF8tmYfnio9eJ9sy9f
+OXj89IrurLndnXy1mv5n9Ld/BTADkcva/Udq9qXG+Z29VDa86fZXGdGn35M78y/7
+fdz5Nw==
+=Jh+P
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stephdewit
+
+==================================================================
