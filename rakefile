@@ -18,10 +18,10 @@ task :serve do
 		index-file.names = ( "index.html" )
 		
 		mimetype.assign = (
-  			".html" => "text/html; charset=utf-8",
-  			".css" => "text/css",
-  			".asc" => "text/plain"
-  		)
+			".html" => "text/html; charset=utf-8",
+			".css" => "text/css",
+			".asc" => "text/plain"
+		)
 	eos
 
 	require 'tempfile'
