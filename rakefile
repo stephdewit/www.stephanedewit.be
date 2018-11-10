@@ -20,7 +20,8 @@ task :serve do
 		mimetype.assign = (
 			".html" => "text/html; charset=utf-8",
 			".css" => "text/css",
-			".asc" => "text/plain"
+			".asc" => "text/plain",
+			".keys" => "text/plain"
 		)
 	eos
 
