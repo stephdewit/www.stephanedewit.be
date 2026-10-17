@@ -21,14 +21,5 @@ title = "Stéphane de Wit"
   # bio = ""
   links = [
     { email = "mailto:contact@stephanedewit.be" },
-    { github = "https://github.com/stephdewit" },
     { linkedin = "https://www.linkedin.com/in/stephdewit" },
-    { mastodon = "https://mamot.fr/@stephdewit" },
-    { x-twitter = "https://twitter.com/stephdewit" },
-    { facebook = "https://www.facebook.com/stephdewit" },
-    { instagram = "https://instagram.com/stephdewit" },
-    { tumblr = "http://blog.stephanedewit.be" },
-    { telegram = "https://t.me/stephdewit" },
-    { keyoxide = "https://keyoxide.org/A693C41B530AC742094DD3B9D65BBB43F04DD008" },
-    { paypal = "https://paypal.me/stephdewit" },
   ]
